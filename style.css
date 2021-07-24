@@ -76,3 +76,17 @@ body{background-image: url(./assets/mouse_click.png);
 .services .serv {
   font-weight: 1000;
 }
+.do{
+  text-align: center;
+  font-weight: 800;
+  font-size: 18px;
+  padding: 30px;
+}
+
+.what-we-do {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 80px 30px;
+}
+
+
