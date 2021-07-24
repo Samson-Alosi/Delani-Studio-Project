@@ -1,0 +1,56 @@
+*{
+  margin: 0; padding: 0;
+}
+body{background-image: url(./assets/mouse_click.png);
+    background-color: #fff;
+
+}
+
+.banner {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.heading {
+  color: #fff;
+  position: absolute;
+  top: 48%;
+  width: 100%;
+  text-align: center;
+
+}
+.heading2 {
+  color: #fff;
+  position: absolute;
+  top: 58%;
+  text-align: center;
+  width: 100%;
+
+}
+.container .row .banner p{
+  color: #fff;
+  position: absolute;
+  top: 65%;
+  text-align: center;
+  width: 100%;
+  size: 1px;
+  font-weight: 100;
+
+}
+
+.container .row .banner .second-image {
+  
+  position: absolute;
+  align-items: center;
+  bottom: 50%;
+  padding: 0px 530px 40px ;
+  
+}
+
+.container .row .banner .third-image {
+  position: absolute;
+  top: 90%;
+  padding: 0px 550px;
+  
+}
