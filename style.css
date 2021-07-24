@@ -134,7 +134,7 @@ body{background-image: url(./assets/mouse_click.png);
 }
 
 #row {
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 .image {
@@ -142,10 +142,13 @@ body{background-image: url(./assets/mouse_click.png);
     top: 5rem;
     color: #fff;
     margin-left: 4rem;
-    border: 2px solid white;
-    font-size: 20px;
-    font-weight: bold;
+    font-weight: 500;
+    border: 1px solid white;
+    font-size: 15px;
+    border-radius: 5px;
     display: none;
+    align-items: center;
+  
 }
 
 
@@ -153,22 +156,26 @@ body{background-image: url(./assets/mouse_click.png);
 .mighty {
     position: absolute;
     top: 5rem;
-    color: rgb(153, 19, 19);
+    color: rgb(61, 8, 8);
     margin-left: 4rem;
-    border: 2px solid white;
-    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 15px;
     font-weight: bold;
     display: none;
+    font-weight: 500;
 }
 .yellow{
     position: absolute;
     top: 5rem;
     color: #fff;
+    border-radius: 5px;
     margin-left: 4rem;
-    border: 2px solid white;
-    font-size: 20px;
+    border: 1px solid white;
+    font-size: 15px;
     font-weight: bold;
     display: none;
+    font-weight: 500;
 }
 
 .portfo {
@@ -176,32 +183,37 @@ body{background-image: url(./assets/mouse_click.png);
     top: 5rem;
     color: #fff;
     margin-left: 4rem;
-    border: 2px solid white;
-    font-size: 20px;
+    border: 1px solid white;
+    font-size: 15px;
     font-weight: bold;
     display: none;
+    border-radius: 5px;
+    font-weight: 500;
 }
 
 .landing {
     position: absolute;
     top: 5rem;
-    color: #fff;
+    color: rgb(39, 4, 4);
     margin-left: 4rem;
-    border: 2px solid white;
-    font-size: 20px;
+    border: 1px solid white;
+    font-size: 15px;
     font-weight: bold;
     display: none;
+    border-radius: 5px;
 }
 
 .button {
     position: absolute;
     top: 5rem;
-    color: #fff;
+    color: rgb(16, 1, 1);
     margin-left: 4rem;
-    border: 2px solid white;
-    font-size: 20px;
+    border: 1px solid rgb(48, 3, 3);
+    font-size: 15px;
     font-weight: bold;
     display: none;
+    font-weight: 500;
+    border-radius: 5px;
 }
 
 .burned {
@@ -209,10 +221,12 @@ body{background-image: url(./assets/mouse_click.png);
     top: 5rem;
     color: #fff;
     margin-left: 4rem;
-    border: 2px solid white;
-    font-size: 20px;
+    border: 1px solid white;
+    font-size: 15px;
     font-weight: bold;
     display: none;
+    border-radius: 5px;
+    font-weight: 500;
 }
 
 .giraffe {
@@ -221,9 +235,11 @@ body{background-image: url(./assets/mouse_click.png);
     color: rgb(68, 64, 64);
     font-size: 20px;
     margin-left: 2.5rem;
-    border: 2px solid white;
+    border: 1px solid white;
     font-weight: bold;
     display: none; 
+    border-radius: 5px;
+
 }
 /* contact-us */
 
