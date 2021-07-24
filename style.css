@@ -118,6 +118,10 @@ body{background-image: url(./assets/mouse_click.png);
 }
 
 /* portfolio */
+.portfolio{
+  position: relative;
+}
+
 .container .portfolio h4 {
   text-align: center;
   font-weight: 800;
@@ -129,6 +133,98 @@ body{background-image: url(./assets/mouse_click.png);
 
 }
 
+#row {
+    margin-top: 2rem;
+}
+
+.image {
+    position: absolute;
+    top: 5rem;
+    color: #fff;
+    margin-left: 4rem;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: bold;
+    display: none;
+}
+
+
+
+.mighty {
+    position: absolute;
+    top: 5rem;
+    color: rgb(153, 19, 19);
+    margin-left: 4rem;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: bold;
+    display: none;
+}
+.yellow{
+    position: absolute;
+    top: 5rem;
+    color: #fff;
+    margin-left: 4rem;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: bold;
+    display: none;
+}
+
+.portfo {
+    position: absolute;
+    top: 5rem;
+    color: #fff;
+    margin-left: 4rem;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: bold;
+    display: none;
+}
+
+.landing {
+    position: absolute;
+    top: 5rem;
+    color: #fff;
+    margin-left: 4rem;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: bold;
+    display: none;
+}
+
+.button {
+    position: absolute;
+    top: 5rem;
+    color: #fff;
+    margin-left: 4rem;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: bold;
+    display: none;
+}
+
+.burned {
+    position: absolute;
+    top: 5rem;
+    color: #fff;
+    margin-left: 4rem;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: bold;
+    display: none;
+}
+
+.giraffe {
+    position: absolute;
+    top: 5rem;
+    color: rgb(68, 64, 64);
+    font-size: 20px;
+    margin-left: 2.5rem;
+    border: 2px solid white;
+    font-weight: bold;
+    display: none; 
+}
 /* contact-us */
 
 section{

@@ -27,3 +27,14 @@ $(document).ready(function () {
     $("#management1").toggle();
   });
   });
+
+  $(document).ready(function() {
+    $(".image1").mouseenter(function() {
+               $(".image").show();
+               $(".image1").css("opacity","0.7");
+    });
+    $(".image1").mouseleave(function() {
+               $(".image").hide();
+               $(".image1").css("opacity","3");
+    });
+}); 
