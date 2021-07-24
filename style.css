@@ -74,7 +74,7 @@ body{background-image: url(./assets/mouse_click.png);
 }
 
 .services .serv {
-  font-weight: 1000;
+  font-weight: 800;
 }
 .do{
   text-align: center;
@@ -165,5 +165,6 @@ border: 1px solid #fff;
 .last {
   text-align: center;
   line-height: 5px;
-  
+  margin-bottom: 50px;
+
 }
