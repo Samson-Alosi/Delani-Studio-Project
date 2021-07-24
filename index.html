@@ -131,32 +131,35 @@
                         <p></p>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </div>
 
     
     <!-- Contact us -->
-    <div class="contact-us">
-           <div class="contact-us-content">
-                <p class="sub-heading">CONTACT US</p>
-                <div class="row">
-                    <div class="col-sm-12 col-md-4 col-lg-6">
-                    <input type="text" class="form-control" placeholder="Name..." aria-label="First name">
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-6">
-                    <input type="text" class="form-control" placeholder="Email..." aria-label="Last name">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                    <textarea class="form-control" placeholder="Your message here..."></textarea>
-                    </div>
-                </div>
-          </div>
-       </div>
+     <section>
+        <div class="container">
+            <h4>CONTACT US</h4>
+            <div class="form">
+                <form action="">
+                    <label for="fname"></label>
+                    <input type="text" id="name" name="firstname" placeholder="Name...">
+
+                    <label for="lname"></label>
+                    <input type="text" id="email" name="lastname" placeholder="Email..."><br><br>
+
+                    <label for="subject"></label>
+                    <textarea id="subject" name="subject" placeholder="Your message here"
+                        style="height:200px"></textarea>
+                        <input type="submit" value="Submit">   
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer/social links -->
+    <footer>
        <div class="social">
            <img src="./assets/social_icons/twitter.png" alt="twitter-icon">
            <img src="./assets/social_icons/dribble.png"     alt="dribble-icon">
@@ -167,11 +170,12 @@
            <img src="./assets/social_icons/behance.png" alt="behance-icon">
            <img src="./assets/social_icons/pinterest.png" alt="pinterest-icon">
            <img src="./assets/social_icons/flickr.png" alt="flickr-icon">
-       </div>
-       <footer>
+       </div><br>
+            <div class="last" style="font-family: 'Courier New', Courier, monospace;">
            <p>DELANI STUDIO</p>
            <p>2021</p>
-       </footer>
+            </div>
+    </footer>
 
     </div>
 </body>
