@@ -126,9 +126,3 @@ $(document).ready(function () {
                $(".giraffe1").css("opacity","3");
     });
 }); 
-
-
-
-
-
-
